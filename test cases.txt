@@ -1,0 +1,133 @@
+Please use this test cases.
+-------------------------------------------------------------------------------------------------
+Test Case 1:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter name:Chris
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Chris Harris
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter name:Ch
+Chris
+Chris Harris
+
+---------------------------------------------------------------------------------------------------------
+
+Test Case 2:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter name:Chris Harris
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Chris
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter name:Ch
+Chris
+Chris Harris
+2
+Enter name:Chris
+Chris
+Chris Harris
+
+---------------------------------------------------------------------------------------------------------
+
+Test Case 3:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter name:Chris Harris
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Christopher Bing
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter Name:Chris
+Chris Harris
+Christopher Bing
+1: Add contact 2:Search 3:Exit
+2
+Enter Name:Christo
+Christopher Bing
+1: Add contact 2:Search 3:Exit
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Test Case 4:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter name:Harry 123
+Enter valid name
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Harry
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter Name:Ha
+Harry
+1: Add contact 2:Search 3:Exit
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Test Case 5:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Enter valid name
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Akshay Deshpande
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Akshaya Iyer
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter Name:Akshay
+Akshay Deshpande
+Akshaya Iyer
+1: Add contact 2:Search 3:Exit
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+Test Case 6:
+Input:
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Chris Harris
+1: Add contact 2:Search 3:Exit
+1
+Enter Name:Chris
+1: Add contact 2:Search 3:Exit
+Output:
+2
+Enter Name:Ak
+No contact with Ak this name
+1: Add contact 2:Search 3:Exit
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Test Case 7:
+1: Add contact 2:Search 3:Exit
+4
+Please enter valid input
+1: Add contact 2:Search 3:Exit
+
+
+------------------------------------------------------------------------------------------------------------------
